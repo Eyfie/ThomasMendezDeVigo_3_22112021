@@ -4,8 +4,8 @@
   "description": "Website of Ohmyfood, foodtech company located in Paris, France.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass" : "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+    "watch" : "sass --watch ./sass/main.scss:./css/style.css",
+    "compile" : "sass ./sass/main.scss:./css/style.css --style compressed" 
 
   },
   "repository": {
@@ -15,6 +15,9 @@
   "keywords": [],
   "author": "Thomas Mendez de Vigo",
   "license": "ISC",
+  "devDependencies": {
+    "sass":"^1.43.4"
+  },
   "bugs": {
     "url": "https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021/issues"
   },
