@@ -1,17 +1,19 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "OPC project 3 repository",
+  "description": "Website of Ohmyfood, foodtech company located in Paris, France.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "sass" : "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+    ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thomas Mendez de Vigo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021/issues"
