@@ -1,0 +1,20 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "OPC project 3 repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021/issues"
+  },
+  "homepage": "https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021#readme"
+}
