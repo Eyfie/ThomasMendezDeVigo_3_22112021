@@ -4,21 +4,20 @@
   "description": "Website of Ohmyfood, foodtech company located in Paris, France.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./main.scss:../css/style.css --style compressed",
-    "prefix":"postcss ./sass/css/style.css --use autoprefixer -d./css/"
-  },
+    "sass": "sass --watch ./sass/main.scss:../css/style.css --style compressed",
+    "prefix" : "postcss ./css/style.css --use autoprefixer -d./css/prefixed"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021.git"
   },
-  "keywords": [],
   "author": "Thomas Mendez de Vigo",
   "license": "ISC",
   "devDependencies": {
     "sass":"^1.43.4",
-    "autoprefixer":"10.4.0",
+    "autoprefixer":"^10.4.0",
+    "postcss" : "^8.3.11"
   },
-  "browserslist": "last 4 versions",
+  "browserslist": "last 2 versions",
   "bugs": {
     "url": "https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021/issues"
   },
