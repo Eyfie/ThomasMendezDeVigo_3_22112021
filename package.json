@@ -4,8 +4,10 @@
   "description": "Website of Ohmyfood, foodtech company located in Paris, France.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:../css/style.css --style compressed",
-    "prefix" : "postcss ./css/style.css --use autoprefixer -d./css/prefixed"},
+    "watch": "sass --watch ./sass/main.scss:../css/style.css",
+    "compil" : "sass ./sass/main.scss:./css/style.css --style compressed",
+    "prefix" : "postcss ./css/style.css --use autoprefixer -d ./css/",
+    "build" : "npm run compil && npm run prefix"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021.git"
