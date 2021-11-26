@@ -1,0 +1,16 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $color-diffusegrey;
+    padding-block:2rem;
+    gap: 1rem;
+
+
+    &__title{
+        font-size: $fs-h4;
+        font-weight: 900;
+    }  
+}
