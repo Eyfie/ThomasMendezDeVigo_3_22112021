@@ -14,3 +14,36 @@
         font-weight: 900;
     }  
 }
+
+.concept{
+padding-block: 3rem;
+
+    &__title{
+        font-size: $fs-h4;
+        font-weight: 700;
+    }
+
+    &__list{
+        gap: 1rem;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+}
+
+
+.restaurants{
+    background-color: $color-diffusegrey;
+    padding-block: 3rem;
+
+    &__title{
+        font-size: $fs-h4;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: fit-content(100%);
+        gap: 1.5rem;
+    }
+}
