@@ -86,3 +86,19 @@ a{
     text-decoration: none;
     color:inherit;
 }
+
+input{
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    color: inherit;
+
+    &::placeholder{
+        color: inherit;
+        opacity: 1;
+    }
+
+    &:focus{
+        outline: none;
+    }
+}

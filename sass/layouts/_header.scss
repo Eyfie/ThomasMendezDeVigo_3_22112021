@@ -6,12 +6,28 @@
       justify-content: center;
       align-items: center;
       padding-block: 1rem;
+      box-shadow:  2px 2px 2px 1px hsl(0, 0, 40, 0.2);
     }
 
     &__logo{
-        font-size: $fs-h1;
+        font-size: $fs-h3;
+        font-family: $ff-stylise;
         font-weight: 500;
     }
 
+    &__search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-lightgrey;
+        color: $color-deepgrey;
+        gap: 1rem;
+        padding-block: 1rem;
+    }
+
+    &__search-input{
+        width: 8rem;
+        font-weight: 600;
+    }
 
 }
