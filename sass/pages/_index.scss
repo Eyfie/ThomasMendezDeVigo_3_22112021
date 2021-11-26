@@ -16,24 +16,29 @@
 }
 
 .concept{
-padding-block: 3rem;
+    padding-block: 3rem;
+    padding-inline: 5vw;
 
-    &__title{
-        font-size: $fs-h4;
-        font-weight: 700;
-    }
+        &__title{
+            font-size: $fs-h4;
+            font-weight: 700;
+        }
 
-    &__list{
-        gap: 1rem;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
+        &__list{
+            gap: 1rem;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            @include breakpoint('desktop'){
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
     }
-}
 
 
 .restaurants{
     background-color: $color-diffusegrey;
     padding-block: 3rem;
+    padding-inline: 5vw;
 
     &__title{
         font-size: $fs-h4;
@@ -45,5 +50,9 @@ padding-block: 3rem;
         display: grid;
         grid-template-columns: fit-content(100%);
         gap: 1.5rem;
+
+        @include breakpoint('tablet'){
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 }
