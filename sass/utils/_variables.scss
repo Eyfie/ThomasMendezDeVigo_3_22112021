@@ -9,7 +9,7 @@ $color-headsearch:	hsl(0, 0%, 92%);
 $color-footer: 	hsl(0, 0%, 21%);
 $color-white: 	hsl(0, 0%, 100%);
 
-/* FONTSIZE */
+// FONTSIZE
 
 $fs-h1: 4rem;
 $fs-h2: 3rem;
@@ -27,7 +27,7 @@ $fs-xs: 0.5rem;
 
 // MEDIA BREAKPOINTS
 
-$media: (
-    'tablet' :768px,
-    'desktop':1024px
+$breakpoints: (
+    'tablet' :(min-width : 767px) ,
+    'desktop':(min-width : 1023px)
 );

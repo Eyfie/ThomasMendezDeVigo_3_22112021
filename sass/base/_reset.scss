@@ -22,7 +22,11 @@ h4,
 h5,
 h6{
     margin:0;
-    padding:0
+    padding:0;
+}
+
+html{
+    font-size: 16px;
 }
 
 h1,
@@ -34,6 +38,7 @@ h6{
     font-size:100%;
     font-weight:normal
 }
+
     
 ul{
     list-style:none
