@@ -5,9 +5,12 @@ $color-secondary : hsl(317, 100%, 74%);
 $color-tertiary : hsl(165, 56%, 74%) ;
 
 $color-main: hsl(0, 0%, 96%);
-$color-headsearch:	hsl(0, 0%, 92%);
-$color-footer: 	hsl(0, 0%, 21%);
+$color-lightgrey:	hsl(0, 0%, 92%);
+$color-grey: 	hsl(0, 0%, 49%);
+$color-darkgrey : hsl(0, 0%, 29%);
+$color-deepgrey: 	hsl(0, 0%, 21%);
 $color-white: 	hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
 
 // FONTSIZE
 
@@ -20,7 +23,9 @@ $fs-base: 1rem;
 $fs-sm: 0.75rem;
 $fs-xs: 0.5rem;
 
-
+// POLICE
+$ff-main : 'Roboto', sans-serif;
+$ff-stylise : 'Shrikhand', cursive;
 
 
 
