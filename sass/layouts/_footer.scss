@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $color-footer;
+    color: $color-white;
+    gap: 1.125rem;
+    padding-block: 2rem;
+    padding-inline: 5vh;
+}
