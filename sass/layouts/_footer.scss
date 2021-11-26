@@ -4,8 +4,34 @@
     background-color: $color-deepgrey;
     color: $color-white;
     gap: 1.125rem;
-    padding-block: 2rem;
-    padding-inline: 5vh;
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
 
-    
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &__link{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        &--strong{
+            font-weight: 400;
+        }
+    }
+
+    &__logo{
+        font-family: $ff-stylise;
+        padding-block: 1rem;
+        font-size: $fs-lg;
+    }
+
+    &__link-icon{
+        font-size: $fs-sm;
+        width:1.25em;
+        text-align: center;
+
+    }
 }
