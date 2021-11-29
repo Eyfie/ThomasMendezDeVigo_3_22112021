@@ -1,5 +1,6 @@
 
 
+
 .concept-card{
     counter-increment: concept;
     background-color: $color-diffusegrey;
@@ -45,5 +46,9 @@
     }
     &:hover{
         background-color: pastel($color-primary);
+        
+        &>.concept-card__icon{
+            color: $color-primary;
+        }
     }
 }
