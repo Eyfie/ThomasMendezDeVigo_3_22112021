@@ -2,6 +2,7 @@
     position: relative;
     background-color: $color-white;
     border-radius: 1rem;
+    box-shadow:  2px 2px 2px 1px hsl(0, 0%, 40%, 0.2);
 
     &__link{
         position: absolute;
@@ -33,6 +34,10 @@
 
     &__body{
         background-color: $color-white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        border-radius: inherit;
     }
 
     &__title{

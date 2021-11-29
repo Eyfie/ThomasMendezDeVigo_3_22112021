@@ -38,14 +38,6 @@
         left: -0.8125rem;
         font-weight: 400;
     }
-
-    &::after{
-        content: '';
-        position: absolute;
-        background-color: $color-diffusegrey;
-
-
-    }
     &:hover{
         background-color: pastel($color-primary);
         
