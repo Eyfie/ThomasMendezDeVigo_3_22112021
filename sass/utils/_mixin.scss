@@ -14,3 +14,17 @@
           + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
   }
+
+//MIXIN TO ADAPT TEXT COLOR
+@mixin adaptColor($color : $color-tertiary){
+  //if color saturation is low darken it
+  @if saturation($color)<60% {
+    $color : darken($color);
+    color:$color;
+  }
+  //if color saturation is high enlight it
+  @else{
+    $color : lighten($color);
+    color:$color;
+  }
+}

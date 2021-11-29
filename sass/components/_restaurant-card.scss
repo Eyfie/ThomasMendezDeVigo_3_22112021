@@ -15,7 +15,7 @@
         top: 1rem;
         right: 1rem;
         background-color: $color-tertiary;
-        color: $color-white;
+        @include adaptColor($color-tertiary);
         padding: 1rem;
     }
 

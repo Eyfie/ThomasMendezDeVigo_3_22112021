@@ -1,0 +1,19 @@
+//COLOR ADAPTATION
+
+// function to darken the original color
+@function darken($color){
+    $hue : hue($color);
+    $sat : 100%;
+    $lightness: 25%;
+    $darken : hsl($hue,$sat,$lightness);
+    @return $darken;
+}
+
+//function to enlight the original color
+@function lighten($color){
+    $hue : hue($color);
+    $sat : 100%;
+    $lightness: 75%;
+    $lighten: hsl($hue,$sat,$lightness);
+    @return $lighten;
+}
