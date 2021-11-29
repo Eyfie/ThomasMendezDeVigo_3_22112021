@@ -1,0 +1,49 @@
+
+
+.concept-card{
+    counter-increment: concept;
+    background-color: $color-diffusegrey;
+    position:relative;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 2rem;
+    margin-left: calc(1.75rem/2);
+    gap: 1.125rem;
+    border-radius: 1.125rem;
+    box-shadow:  2px 2px 2px 1px hsl(0, 0%, 40%, 0.2);
+    transition: filter 0.2s ease-in-out;
+    
+
+    &__icon{
+        font-size: $fs-1125;
+        color: $color-grey;
+        width: 1.25rem;
+        text-align: center;
+    }
+
+    &::before{
+        content: counter(concept);
+        position:absolute;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+        color: $color-diffusegrey;
+        background-color: $color-primary;
+        line-height: 1.75rem;
+        text-align: center;
+        left: -0.8125rem;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        background-color: $color-diffusegrey;
+
+
+    }
+    &:hover{
+        background-color: pastel($color-primary);
+    }
+}

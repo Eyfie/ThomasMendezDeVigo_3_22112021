@@ -17,3 +17,12 @@
     $lighten: hsl($hue,$sat,$lightness);
     @return $lighten;
 }
+
+//function to render a color pastel
+@function pastel($color){
+    $hue : hue($color);
+    $sat : 100%;
+    $lightness: 95%;
+    $pastel: hsl($hue,$sat,$lightness);
+    @return $pastel;
+}

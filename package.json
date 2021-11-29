@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "watch": "sass --watch ./sass/main.scss:../css/style.css",
-    "compil" : "sass ./sass/main.scss:./css/style.css --style compressed",
-    "prefix" : "postcss ./css/style.css --use autoprefixer -d ./css/",
-    "build" : "npm run compil && npm run prefix"},
+    "compil": "sass ./sass/main.scss:./css/style.css --style compressed",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/",
+    "build": "npm run compil && npm run prefix"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Eyfie/ThomasMendezDeVigo_3_22112021.git"
@@ -15,9 +16,9 @@
   "author": "Thomas Mendez de Vigo",
   "license": "ISC",
   "devDependencies": {
-    "sass":"^1.43.4",
-    "autoprefixer":"^10.4.0",
-    "postcss" : "^8.3.11"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4"
   },
   "browserslist": "last 2 versions",
   "bugs": {

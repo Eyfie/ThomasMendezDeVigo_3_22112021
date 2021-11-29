@@ -1,7 +1,7 @@
 /*==========================
 =========== VARIABLES ============*/
 @import "./utils/variables";
-@import "./utils/function";
+@import "./utils/functions";
 @import "./utils/mixin";
 
 /*==========================
@@ -29,3 +29,4 @@
 =========== COMPONENTS ============*/
 
 @import "./components/restaurant-card";
+@import "./components/concept-card";
