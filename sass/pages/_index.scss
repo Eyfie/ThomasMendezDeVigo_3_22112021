@@ -48,7 +48,6 @@
 
     &__list{
         display: grid;
-        grid-template-columns: fit-content(100%);
         gap: 1.5rem;
 
         @include breakpoint('tablet'){
