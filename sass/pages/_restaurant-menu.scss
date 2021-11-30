@@ -1,0 +1,44 @@
+.illustration-img{
+    width: 100%;
+    height: max(16rem);
+    object-fit: cover;
+}
+
+.menu{
+    position: relative;
+
+    padding-block: 2rem;
+    padding-inline: 5vw;
+    margin-top: -2rem;
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    background-color: $color-diffusegrey;
+
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-bottom: 2rem;
+    }
+
+    &__title{
+        font-family: $ff-stylise;
+        
+        font-size: $fs-1500;
+        font-weight: 500;
+    }
+
+    &__content{
+        display: grid;
+        gap: 2rem 2rem;
+        grid-template-columns: minmax(0, 1fr);
+
+        @include breakpoint('desktop'){
+            grid-template-columns: repeat(3, minmax(0,1fr));
+        }
+    }
+}

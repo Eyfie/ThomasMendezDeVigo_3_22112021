@@ -50,8 +50,11 @@ input,
 select{
     margin:0;
     padding:0;
+    border: none;
+    font: inherit;
+}
 
-}html{
+html{
     box-sizing:border-box;
     scroll-behavior: smooth;
 }
