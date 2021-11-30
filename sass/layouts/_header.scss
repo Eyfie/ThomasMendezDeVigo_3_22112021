@@ -15,6 +15,14 @@
         font-weight: 500;
     }
 
+    &__back-button{
+
+        position:absolute;
+        left: 10vw;
+
+        font-size: $fs-1500;
+    }
+
     &__search{
         display: flex;
         justify-content: center;
