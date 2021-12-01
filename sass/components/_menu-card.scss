@@ -12,15 +12,48 @@
 
     &__body{
         flex: 1;
-        padding: 0.5rem;
-        }
+        min-width: 0;
+
+        padding: 1rem;
+    }
+
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+        font-size: $fs-1125;
+        font-weight: 500;
+
+        margin-bottom: 0.25rem;
+    }
+
+    &__description{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+
+    &__price{
+        font-weight: 600;
+        padding-right: 0.5rem;
+    }
+
 
     &__slider{
         font-size: $fs-1250;
         font-weight: 900;
 
         width: 4rem;
-        margin-right: 0rem;
+        margin-right: -4rem;
 
         background-color: $color-tertiary;
         color: $color-white;

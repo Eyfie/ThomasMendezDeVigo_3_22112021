@@ -50,6 +50,7 @@
 
             color: $color-deepgrey;
             font-weight: 300;
+            font-size: $fs-1125;
 
             margin-bottom: 2rem;
 
@@ -72,5 +73,13 @@
             gap: 1.125rem;
         }
 
+    }
+
+    &__order{
+        display: flex;
+        justify-content: center;
+
+        padding-top: 3rem;
+        padding-bottom: 1rem;
     }
 }
