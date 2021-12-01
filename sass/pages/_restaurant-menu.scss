@@ -43,6 +43,7 @@
     }
 
     .menu-section{
+
         &__title{
             position: relative;
             text-transform: uppercase;
@@ -63,6 +64,12 @@
                 height: 3px;
                 width: 2.5rem;
             }
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            gap: 1.125rem;
         }
 
     }
