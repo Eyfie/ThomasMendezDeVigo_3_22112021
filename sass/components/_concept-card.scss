@@ -41,7 +41,7 @@
     &:hover{
         background-color: pastel($color-primary);
         
-        &>.concept-card__icon{
+        & .concept-card__icon{
             color: $color-primary;
         }
     }
