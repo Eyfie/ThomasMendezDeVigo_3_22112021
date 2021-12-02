@@ -27,7 +27,7 @@
     @return $pastel;
 }
 
-//function for gradient degrees
+//function for main gradient degrees
 @function gradient($degree){
    @return linear-gradient($degree,$color-secondary 0%,$color-primary 100%);
 }
