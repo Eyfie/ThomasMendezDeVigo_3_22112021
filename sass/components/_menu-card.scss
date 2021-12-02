@@ -61,5 +61,22 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        transition: margin-right 0.3s ease-in-out;
+    }
+
+    &__slider-icon{
+        transition: transform 0.4s ease-in-out;
+    }
+
+    &:hover{
+
+        & .menu-card__slider{
+            margin-right: 0rem;
+        }
+
+        & .menu-card__slider-icon{
+            transform: rotate(1turn);
+        }
     }
 }
