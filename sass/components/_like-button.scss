@@ -1,0 +1,45 @@
+
+.like-button{
+    background-color: transparent;
+    font-size: $fs-1500;
+
+    z-index:2;
+    cursor: pointer;
+
+    &.fa-stack{
+        display: flex;
+        vertical-align: none;
+        align-items: center;
+        height: inherit;
+    }
+
+    &__main-icon{
+
+        color: $color-deepgrey;
+        transition:color 0.4s ease-in-out, background 0.4s ease-in-out;
+    }
+
+    &__background-icon{
+        color: transparent;
+        background: $main-gradient;
+        background-clip: text;
+        opacity: 0;
+        clip-path: inset(100% 0 0 0);
+        transition: clip-path 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+    &:hover{
+
+
+        & .like-button__background-icon{       
+            opacity: 1;
+            clip-path: inset(0 0 0 0);
+        }
+
+        & .like-button__main-icon{
+            color: transparent;
+            background: $main-gradient;
+            background-clip: text;
+        }
+    }
+}
