@@ -26,3 +26,8 @@
     $pastel: hsl($hue,$sat,$lightness);
     @return $pastel;
 }
+
+//function for gradient degrees
+@function gradient($degree){
+   @return linear-gradient($degree,$color-secondary 0%,$color-primary 100%);
+}
