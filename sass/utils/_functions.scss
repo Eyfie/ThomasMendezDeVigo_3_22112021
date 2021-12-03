@@ -28,6 +28,6 @@
 }
 
 //function for main gradient degrees
-@function gradient($degree){
-   @return linear-gradient($degree,$color-secondary 0%,$color-primary 100%);
+@function gradient($degree, $color1 : $color-primary , $color2 : $color-secondary){
+   @return linear-gradient($degree, $color1 0%, $color2 100%);
 }
