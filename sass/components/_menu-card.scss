@@ -9,6 +9,10 @@
     
     border-radius: 1rem;
     box-shadow:  0px 6px 10px 2px hsl(0, 0%, 40%, 0.2);
+    
+    animation: slide-down 0.5s ease-in backwards;
+    @include delay(animation, 9, 0.25s);
+    
 
     &__body{
         flex: 1;

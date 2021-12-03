@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: disappear 0.2s ease-in-out 3s forwards;
 
     &__wrapper{
         width: 200px;
@@ -19,7 +20,7 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: $color-primary;
+        background-color: $color-tertiary;
         position: relative;
         left: 27.5%;
         animation: circle .5s alternate infinite ease;
@@ -41,5 +42,6 @@
         grid-column: 1/4;
         text-align: center;
         padding-top: 3rem;
+        
     }
 }

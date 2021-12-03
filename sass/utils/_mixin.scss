@@ -28,3 +28,13 @@
     color:$color;
   }
 }
+
+
+//MIXIN TO DELAY ANIMATIONS
+@mixin delay($rule, $number, $value) {
+  @for $i from 1 through $number {
+    &:nth-child(#{$i}) {
+      #{$rule}-delay: (#{$i*$value});
+    }
+  }
+}

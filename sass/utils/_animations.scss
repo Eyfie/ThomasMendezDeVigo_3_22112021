@@ -1,5 +1,5 @@
 
-// Bouncy circles animation
+// Bouncy circles animation used on loader
 @keyframes circle{
         0%{
             top:60px;
@@ -17,3 +17,20 @@
             top:0%;
         }
     }
+
+
+//Disappear animation used on loader
+@keyframes disappear{
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+//Slide down animation used for menu-cards
+@keyframes slide-down{
+    from{
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+}
