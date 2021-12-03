@@ -1,8 +1,9 @@
 /*==========================
-=========== VARIABLES ============*/
+=========== UTILS ============*/
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixin";
+@import "./utils/animations";
 
 /*==========================
 =========== BASE ============*/
@@ -33,3 +34,4 @@
 @import "./components/gradient-button";
 @import "./components/menu-card";
 @import "./components/like-button";
+@import "./components/loader";
