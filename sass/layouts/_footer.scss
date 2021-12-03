@@ -6,11 +6,21 @@
     gap: 1.125rem;
     padding-block: 1rem;
     padding-inline: 5vw;
+    @include breakpoint('desktop'){
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
     &__nav{
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        @include breakpoint('desktop'){
+            gap: 2rem;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 
     &__link{
@@ -20,11 +30,12 @@
         &--strong{
             font-weight: 400;
         }
+
     }
 
     &__logo{
         font-family: $ff-stylise;
-        padding-block: 1rem;
+        padding-block: 0.5rem;
         font-size: $fs-1125;
     }
 

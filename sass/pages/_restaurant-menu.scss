@@ -6,14 +6,11 @@
 
 .menu{
     position: relative;
-
     padding-block: 2rem;
     padding-inline: 5vw;
     margin-top: -2rem;
-
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-
     background-color: $color-diffusegrey;
 
 
@@ -21,13 +18,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         padding-bottom: 2rem;
     }
 
     &__title{
         font-family: $ff-stylise;
-        
         font-size: $fs-1500;
         font-weight: 500;
     }
@@ -36,7 +31,6 @@
         display: grid;
         gap: 2rem 2rem;
         grid-template-columns: minmax(0, 1fr);
-
         @include breakpoint('desktop'){
             grid-template-columns: repeat(3, minmax(0,1fr));
         }
@@ -47,21 +41,17 @@
         &__title{
             position: relative;
             text-transform: uppercase;
-
             color: $color-deepgrey;
             font-weight: 300;
             font-size: $fs-1125;
-
             margin-bottom: 2rem;
 
             &::after{
                 content: '';
                 background-color: $color-tertiary;
                 position: absolute;
-
                 left: 0;
                 bottom: -0.4rem;
-
                 height: 3px;
                 width: 2.5rem;
             }
@@ -78,7 +68,6 @@
     &__order{
         display: flex;
         justify-content: center;
-
         padding-top: 3rem;
         padding-bottom: 1rem;
     }

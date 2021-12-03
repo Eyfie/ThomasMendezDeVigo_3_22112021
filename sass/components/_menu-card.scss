@@ -9,7 +9,7 @@
     
     border-radius: 1rem;
     box-shadow:  0px 6px 10px 2px hsl(0, 0%, 40%, 0.2);
-    
+
     animation: slide-down 0.5s ease-in backwards;
     @include delay(animation, 9, 0.25s);
     
@@ -17,7 +17,6 @@
     &__body{
         flex: 1;
         min-width: 0;
-
         padding: 1rem;
     }
 
@@ -31,10 +30,8 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-
         font-size: $fs-1125;
         font-weight: 500;
-
         margin-bottom: 0.25rem;
     }
 
@@ -55,17 +52,13 @@
     &__slider{
         font-size: $fs-1250;
         font-weight: 900;
-
         width: 4rem;
         margin-right: -4rem;
-
         background-color: $color-tertiary;
         color: $color-white;
-
         display: flex;
         align-items: center;
         justify-content: center;
-
         transition: margin-right 0.3s ease-in-out;
     }
 
