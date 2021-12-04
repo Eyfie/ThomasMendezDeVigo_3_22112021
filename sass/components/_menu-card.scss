@@ -27,18 +27,14 @@
     }
 
     &__title{
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+        @extend %cut;
         font-size: $fs-1125;
         font-weight: 500;
         margin-bottom: 0.25rem;
     }
 
     &__description{
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
+        @extend %cut;
         font-size: 0.9rem;
         font-weight: 200;
     }
