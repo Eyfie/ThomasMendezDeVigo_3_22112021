@@ -15,6 +15,17 @@
     }
   }
 
+//MIXIN TO ADAPT CONTAINER SIZE
+@mixin container($width : 'fullscreen'){
+  @if $width == 'fullscreen'{
+    padding-inline: calc((100w - min(90vw,80rem)) / 2);
+  }
+  @else if $width == 'contained'{
+    padding-inline: min(90vw,80rem);
+    margin-inline: auto;
+  }
+}
+
 //MIXIN TO ADAPT TEXT COLOR
 @mixin adaptColor($color : $color-tertiary){
   //if color saturation is low darken it
