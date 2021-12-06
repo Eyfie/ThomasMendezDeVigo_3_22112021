@@ -4,11 +4,8 @@
 
     cursor: pointer;
     overflow: hidden;
+    @extend %card-base;
 
-    background-color: $color-white;
-    
-    border-radius: 1rem;
-    box-shadow:  0px 6px 10px 2px hsl(0, 0%, 40%, 0.2);
 
     animation: slide-down 0.5s ease-in backwards;
     @include delay(animation, 9, 0.25s);
@@ -27,14 +24,14 @@
     }
 
     &__title{
-        @extend %cut;
+        @extend %text-cut;
         font-size: $fs-1125;
         font-weight: 500;
         margin-bottom: 0.25rem;
     }
 
     &__description{
-        @extend %cut;
+        @extend %text-cut;
         font-size: 0.9rem;
         font-weight: 200;
     }
