@@ -1,11 +1,11 @@
 .footer{
+    @extend %base-container;
     display: flex;
     flex-direction: column;
     background-color: $color-deepgrey;
     color: $color-white;
     gap: 1.125rem;
     padding-block: 1rem;
-    padding-inline: 5vw;
     @include breakpoint('desktop'){
         flex-direction: row;
         justify-content: space-between;

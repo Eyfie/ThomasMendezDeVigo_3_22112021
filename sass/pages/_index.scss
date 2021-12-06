@@ -23,8 +23,8 @@
 }
 
 .concept{
+    @extend %base-container;
     padding-block: 3rem;
-    padding-inline: 5vw;
 
         &__title{
             font-size: $fs-1500;
@@ -44,9 +44,9 @@
 
 
 .restaurants{
+    @extend %base-container;
     background-color: $color-diffusegrey;
     padding-block: 3rem;
-    padding-inline: 5vw;
 
     &__title{
         font-size: $fs-1500;

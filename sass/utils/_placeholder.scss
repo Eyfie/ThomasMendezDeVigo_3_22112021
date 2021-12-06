@@ -16,3 +16,7 @@
     }
 }
 
+
+%base-container{
+     @include container;
+}

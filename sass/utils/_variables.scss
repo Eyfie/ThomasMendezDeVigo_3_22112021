@@ -34,3 +34,8 @@ $breakpoints: (
     'tablet' :(min-width : 767px) ,
     'desktop':(min-width : 1023px)
 );
+
+
+//CONTAINER WIDTH-PADDING
+$container-width: min(90vw, 80rem);
+$container-padding: calc((100vw - $container-width) / 2);

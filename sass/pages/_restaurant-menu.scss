@@ -12,6 +12,9 @@
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     background-color: $color-diffusegrey;
+    @include breakpoint('desktop'){
+        @include container('contained');
+    }
 
     &__header{
         display: flex;
