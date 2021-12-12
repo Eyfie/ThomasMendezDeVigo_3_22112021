@@ -9,14 +9,6 @@
     @return $darken;
 }
 
-//function to enlight the original color
-@function lighten($color){
-    $hue : hue($color);
-    $sat : 100%;
-    $lightness: 75%;
-    $lighten: hsl($hue,$sat,$lightness);
-    @return $lighten;
-}
 
 //function to render a color pastel
 @function pastel($color){

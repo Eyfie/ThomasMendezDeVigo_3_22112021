@@ -35,7 +35,7 @@
   }
   //if color saturation is high enlight it
   @else{
-    $color : lighten($color);
+    $color : pastel($color);
     color:$color;
   }
 }
